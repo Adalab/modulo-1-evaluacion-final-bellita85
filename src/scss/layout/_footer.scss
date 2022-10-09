@@ -1,0 +1,22 @@
+.footer {
+  background-color: $color-darkblue;
+
+  text-decoration: none;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  line-height: 1.88;
+  color: $color-white;
+}
+.link {
+  text-decoration: none;
+  color: $color-white;
+}
+.heard {
+  color: $color-orange;
+}

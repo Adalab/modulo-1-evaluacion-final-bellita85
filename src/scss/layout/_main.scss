@@ -1,0 +1,58 @@
+.main {
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+}
+.sec__insomnia {
+  padding: 10px;
+
+  &__small {
+    color: $color-lightblue;
+  }
+  &__h2 {
+    font-size: 24px;
+    text-transform: capitalize;
+    width: 100%;
+    height: 60px;
+    font-weight: 600;
+  }
+  &__text {
+    font-size: 15px;
+    line-height: 30px;
+    color: $color-grey;
+  }
+  &__go {
+    border-radius: 5px $color-orange;
+  }
+}
+.sec__reasons {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  &__tittle3 {
+    font-size: 24px;
+    text-transform: capitalize;
+    width: 100%;
+    height: 30px;
+    font-weight: 600;
+  }
+}
+.article {
+  width: 320px;
+  text-align: center;
+  &__text {
+    width: 20ch;
+    text-align: center;
+  }
+}
+.tittle4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.more_reasons {
+  background-color: $color-orange;
+  color: $color-white;
+}

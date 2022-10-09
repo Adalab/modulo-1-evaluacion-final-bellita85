@@ -1,5 +1,6 @@
 .header {
   background-image: url("../images/cover_tiny.jpeg");
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,6 +14,7 @@
     z-index: 1;
     width: 37.1px;
     height: 22px;
+    padding: 10px;
   }
 
   &__h1 {
@@ -23,12 +25,17 @@
     text-align: center;
     text-transform: uppercase;
     line-height: 1.31;
+    width: 10ch;
   }
-  &__p {
+  &__text {
     color: $color-white;
     font-size: 16px;
     line-height: 1.19;
     margin-top: 10px;
     margin-bottom: 35.2px;
+  }
+  &__div__link {
+    background-color: color-orange;
+    border-radius: 50%;
   }
 }
