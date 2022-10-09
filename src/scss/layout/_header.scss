@@ -1,41 +1,54 @@
 .header {
   background-image: url("../images/cover_tiny.jpeg");
   background-size: cover;
-  height: 100vh;
+  background-position: 50%;
+  height: 535px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
+
   &__menu {
     background-color: $color-blue;
+    box-sizing: border-box;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 10;
     width: 37.1px;
     height: 22px;
-    padding: 10px;
+    padding: 5px;
   }
 
   &__h1 {
     color: $color-white;
-    font-family: $font-main;
+    font-family: $font-family;
     font-size: 42px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     line-height: 1.31;
-    width: 10ch;
+    width: 12ch;
+    position: absolute;
+    top: 300px;
+    justify-content: flex-end;
+    width: 100vw;
   }
   &__text {
     color: $color-white;
     font-size: 16px;
     line-height: 1.19;
-    margin-top: 10px;
-    margin-bottom: 35.2px;
+    margin-top: 0px;
+    margin-bottom: 45.2px;
   }
   &__div__link {
-    background-color: color-orange;
+    color: $color-orange;
+  }
+  &__div {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    background-color: $color-white;
+    transform: translate(50, -50%);
   }
 }
