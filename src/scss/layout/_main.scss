@@ -43,6 +43,13 @@
     align-items: center;
     text-decoration: none;
     margin-top: 26px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: $color-white;
+
+    &:hover {
+      margin: 80px;
+    }
   }
 }
 .sec__reasons {
@@ -98,6 +105,11 @@
   align-items: center;
   text-decoration: none;
   font-size: 20px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  &:hover {
+    background-color: gray;
+  }
 }
 .div__more {
   display: flex;
@@ -160,12 +172,15 @@
     }
   }
   .sec__reasons {
-    padding: 20px;
+    padding: 20px 35px;
   }
   .sec__reasons__tittle3 {
     font-size: 32px;
   }
   .article {
+    width: 300px;
+    margin-left: 80px;
+    margin-right: 80px;
     &__text {
       font-size: 20px;
       width: 50vw;
