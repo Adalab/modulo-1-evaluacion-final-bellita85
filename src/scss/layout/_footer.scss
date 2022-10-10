@@ -13,9 +13,34 @@
   text-transform: uppercase;
   line-height: 1.88;
   color: $color-white;
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    line-height: 1.88;
+  }
   &__ul3 {
     font-size: 14px;
     text-transform: lowercase;
+    padding-bottom: 40px;
+  }
+  &__flecha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-orange;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: $color-white;
+    text-align: center;
+    line-height: 20px;
+    transform: translateY(-50%);
   }
 }
 .link {
@@ -24,4 +49,17 @@
 }
 .heard {
   color: $color-orange;
+}
+@media all and (min-width: 768px) {
+  .footer__section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 45px;
+  }
+  .footer__nav1 {
+    background-color: brown;
+  }
 }

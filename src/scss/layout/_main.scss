@@ -99,3 +99,45 @@
   justify-content: center;
   padding-bottom: 50px;
 }
+@media all and (min-width: 768px) {
+  .main {
+    padding: 39px;
+  }
+  .sec__insomnia {
+    margin-top: 0px;
+  }
+  .sec__insomnia__h2 {
+    font-size: 26px;
+  }
+  .sec__insomnia__text {
+    font-size: 20px;
+  }
+  .reasons_article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 768px;
+    align-content: center;
+    justify-items: center;
+    margin: 45px;
+  }
+  .sec__reasons__tittle3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 26px;
+  }
+  .article {
+    &__text {
+      font-size: 20px;
+    }
+    width: 60px;
+  }
+  .tittle4 {
+    font-size: 24px;
+    width: 100vw;
+    margin-bottom: 15px;
+  }
+  .div__more {
+    padding-bottom: 0px;
+  }
+}
