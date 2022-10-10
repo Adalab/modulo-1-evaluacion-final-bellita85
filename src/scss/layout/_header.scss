@@ -2,7 +2,7 @@
   background-image: url("../images/cover_tiny.jpeg");
   background-size: cover;
   background-position: 50%;
-  height: 535px;
+  height: 545px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +30,7 @@
     line-height: 1.31;
     width: 12ch;
     position: absolute;
-    top: 300px;
+    top: 320px;
     justify-content: flex-end;
     width: 100vw;
   }
@@ -41,14 +41,14 @@
     margin-top: 0px;
     margin-bottom: 45.2px;
   }
-  &__div__link {
+  &__link {
     color: $color-orange;
-  }
-  &__div {
-    width: 50px;
-    height: 50px;
+    width: 37px;
+    height: 37px;
     border-radius: 50%;
     background-color: $color-white;
-    transform: translate(50, -50%);
+    text-align: center;
+    line-height: 37px;
+    transform: translateY(-50%);
   }
 }
