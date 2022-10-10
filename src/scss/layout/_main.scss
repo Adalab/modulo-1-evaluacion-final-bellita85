@@ -3,7 +3,9 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  font-family: $font-family;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-family-text;
 }
 .sec__insomnia {
   padding: 10px;
@@ -21,9 +23,10 @@
     font-weight: 600;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-family: $font-family-tittle;
   }
   &__text {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.67;
     color: $color-grey;
   }
@@ -56,6 +59,7 @@
     height: 30px;
     font-weight: bold;
     margin-top: 60px;
+    font-family: $font-family-tittle;
   }
 }
 .article {
@@ -66,7 +70,7 @@
   align-items: center;
   &__text {
     width: 100vw;
-    width: 20ch;
+    width: 18ch;
     text-align: center;
     font-size: 18px;
   }
@@ -74,14 +78,24 @@
 .tittle4 {
   font-weight: 700;
   font-size: 18px;
+  font-family: $font-family-tittle;
 }
 .more_reasons {
-  background-color: $color-orange;
-  color: $color-white;
-  width: 180px;
-  text-align: center;
-  border-radius: 22%;
   display: flex;
   justify-content: center;
+  background-color: $color-orange;
+  color: $color-white;
+  width: 184px;
+  height: 45px;
+  flex-grow: 0;
+  margin: 0 0 10px;
+  border-radius: 22.5px;
   align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+.div__more {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }

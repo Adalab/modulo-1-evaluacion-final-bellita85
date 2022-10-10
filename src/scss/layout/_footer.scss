@@ -1,5 +1,6 @@
 .footer {
   background-color: $color-darkblue;
+  font-family: $font-family-text;
 
   text-decoration: none;
   box-shadow: none;
@@ -12,6 +13,10 @@
   text-transform: uppercase;
   line-height: 1.88;
   color: $color-white;
+  &__ul3 {
+    font-size: 14px;
+    text-transform: lowercase;
+  }
 }
 .link {
   text-decoration: none;
