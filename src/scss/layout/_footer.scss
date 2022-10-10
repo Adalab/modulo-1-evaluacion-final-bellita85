@@ -52,14 +52,27 @@
 }
 @media all and (min-width: 768px) {
   .footer__section {
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
-
-    gap: 45px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .footer__ul3 {
+    order: 1;
+  }
+  .footer__nav2 {
+    order: 3;
   }
   .footer__nav1 {
-    background-color: brown;
+    order: 2;
+  }
+}
+@media all and (min-width: 1200px) {
+  .footer__section {
+    justify-content: center;
+    gap: 100px;
   }
 }

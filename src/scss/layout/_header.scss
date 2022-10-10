@@ -56,22 +56,39 @@
 @media all and (min-width: 768px) {
   .header {
     height: 778px;
+    &__h1 {
+      font-size: 80px;
+      top: 384px;
+      line-height: 1.45;
+    }
+    &__text {
+      font-size: 24px;
+      width: 20ch;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    &__linck {
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      margin-bottom: 20px;
+    }
   }
-  .header__h1 {
-    font-size: 80px;
-    top: 384px;
-    line-height: 1.45;
-  }
-  .header__text {
-    font-size: 24px;
-    width: 20ch;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .header__link {
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    margin-bottom: 20px;
+}
+@media all and (min-width: 1200px) {
+  .header {
+    height: 781px;
+    &__h1 {
+      font-size: 100px;
+      width: 10ch;
+    }
+    &__text {
+      width: 40ch;
+      margin-bottom: 20px;
+    }
+    &__link {
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
   }
 }

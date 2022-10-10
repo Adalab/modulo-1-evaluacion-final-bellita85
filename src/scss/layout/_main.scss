@@ -33,7 +33,7 @@
   &__go {
     width: 76px;
     height: 45px;
-    border: solid 3px $color-orange;
+    border: solid 2px $color-orange;
     border-radius: 22px;
     color: $color-orange;
     font-size: 18px;
@@ -47,7 +47,7 @@
 }
 .sec__reasons {
   display: grid;
-  grid-gap: 40px;
+  grid-gap: 50px;
   grid-template-columns: 1fr;
   font-size: 15px;
   line-height: 30px;
@@ -62,12 +62,17 @@
     font-family: $font-family-tittle;
   }
 }
+.reasons_article {
+  display: grid;
+  gap: 40px;
+}
 .article {
   width: 100vw;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+
   &__text {
     width: 100vw;
     width: 18ch;
@@ -99,6 +104,7 @@
   justify-content: center;
   padding-bottom: 50px;
 }
+
 @media all and (min-width: 768px) {
   .main {
     padding: 39px;
@@ -127,10 +133,11 @@
     font-size: 26px;
   }
   .article {
+    width: 60px;
     &__text {
       font-size: 20px;
+      width: 19ch;
     }
-    width: 60px;
   }
   .tittle4 {
     font-size: 24px;
@@ -139,5 +146,35 @@
   }
   .div__more {
     padding-bottom: 0px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .sec__insomnia {
+    padding-left: 250px;
+    padding-right: 250px;
+    &__go {
+      width: 165px;
+    }
+    &__h2 {
+      font-size: 32px;
+    }
+  }
+  .sec__reasons {
+    padding: 20px;
+  }
+  .sec__reasons__tittle3 {
+    font-size: 32px;
+  }
+  .article {
+    &__text {
+      font-size: 20px;
+      width: 50vw;
+    }
+  }
+  .reasons_article {
+    width: 100vw;
+  }
+  .more_reasons {
+    width: 255px;
   }
 }
