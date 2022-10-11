@@ -79,8 +79,8 @@
   align-items: center;
 
   &__text {
-    padding-left: 3.8rem;
-    padding-right: 3.8rem;
+    padding-left: 4.3rem;
+    padding-right: 4.4rem;
     text-align: center;
     font-size: 18px;
   }
@@ -116,6 +116,7 @@
 
 @media all and (min-width: 768px) {
   .sec__insomnia {
+    padding: 50px;
     margin-top: 0px;
     &__h2 {
       font-size: 26px;
@@ -128,7 +129,7 @@
   .sec__reasons {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+
     &__tittle3 {
       display: flex;
       text-align: center;
@@ -137,6 +138,9 @@
     }
   }
   .reasons_article {
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-content: center;
@@ -146,8 +150,8 @@
   .article {
     &__text {
       font-size: 20px;
-      padding-left: 1rem;
-      padding-right: 1.9rem;
+      padding-left: 0rem;
+      padding-right: 0.2rem;
     }
   }
   .tittle4 {
@@ -168,8 +172,8 @@
     }
   }
   .sec__reasons {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 40px;
   }
   .sec__reasons__tittle3 {
