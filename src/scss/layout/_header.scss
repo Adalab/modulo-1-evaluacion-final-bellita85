@@ -2,7 +2,7 @@
   background-image: url("../images/cover_tiny.jpeg");
   background-size: cover;
   background-position: 50%;
-  height: 545px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,7 @@
     left: 0;
     z-index: 10;
     width: 37.1px;
-    height: 22px;
+    height: 25px;
     padding: 5px;
   }
 
@@ -30,16 +30,11 @@
     text-transform: uppercase;
     line-height: 1.31;
     width: 12ch;
-    position: absolute;
-    top: 320px;
-    justify-content: flex-end;
-    width: 100vw;
   }
   &__text {
     color: $color-white;
     font-size: 16px;
     line-height: 1.19;
-    margin-top: 0px;
     margin-bottom: 45.2px;
   }
   &__link {
@@ -55,7 +50,6 @@
 }
 @media all and (min-width: 768px) {
   .header {
-    height: 778px;
     &__h1 {
       font-size: 80px;
       top: 384px;
@@ -77,7 +71,6 @@
 }
 @media all and (min-width: 1200px) {
   .header {
-    height: 781px;
     &__h1 {
       font-size: 100px;
       width: 10ch;
