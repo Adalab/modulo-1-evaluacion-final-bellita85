@@ -1,11 +1,3 @@
-.main {
-  background-color: $color-white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: $font-family-text;
-}
 .sec__insomnia {
   padding: 10px;
   margin-top: 45px;
@@ -172,9 +164,8 @@
     }
   }
   .sec__reasons {
-    padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 40px;
+    padding-left: 40px;
   }
   .sec__reasons__tittle3 {
     font-size: 32px;
