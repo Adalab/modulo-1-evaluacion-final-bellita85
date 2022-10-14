@@ -41,6 +41,7 @@
     margin-bottom: 45.2px;
   }
   &__link {
+    display: none;
     color: $color-orange;
     width: 37px;
     height: 37px;
@@ -71,11 +72,8 @@
       text-align: center;
       margin-bottom: 30px;
     }
-    &__linck {
-      width: 45px;
-      height: 45px;
-      line-height: 45px;
-      margin-bottom: 20px;
+    &__link {
+      display: inline;
     }
   }
 }
